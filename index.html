@@ -1,222 +1,186 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Método Modelo IA – Natal 2026</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo IA Influencer - Crie e Lucre</title>
 
-<style>
-/* ------------------- GLOBAL ------------------- */
-body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(#140013, #240014);
-    color: white;
-    overflow-x: hidden;
-}
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            color: #000;
+        }
 
-section {
-    padding: 60px 20px;
-    text-align: center;
-}
+        header {
+            width: 100%;
+            background: #000;
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+        }
 
-h1, h2 {
-    font-weight: 800;
-    text-transform: uppercase;
-}
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
 
-/* ------------------- HERO ------------------- */
-.hero {
-    background: radial-gradient(circle, #d60052, #8a002a, #000);
-    padding-top: 100px;
-    padding-bottom: 100px;
-    position: relative;
-    overflow: hidden;
-}
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
 
-.neve {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-image: url('https://i.imgur.com/o3aZQ9S.png');
-    opacity: 0.5;
-    animation: snow 12s linear infinite;
-}
+        .hero {
+            padding: 50px 20px;
+            text-align: center;
+            background: linear-gradient(#ffffff, #e7f0ff);
+        }
 
-@keyframes snow {
-    0% { background-position: 0 0; }
-    100% { background-position: 0 1000px; }
-}
+        .hero h2 {
+            font-size: 32px;
+            color: #003399;
+            margin-bottom: 10px;
+        }
 
-.hero-images {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-}
+        .hero p {
+            max-width: 700px;
+            margin: auto;
+            font-size: 18px;
+            line-height: 1.6;
+        }
 
-.hero-images img {
-    width: 260px;
-    border-radius: 15px;
-    border: 4px solid #ff408c;
-    box-shadow: 0 0 20px #ff0059;
-}
+        .section {
+            padding: 50px 25px;
+            max-width: 1100px;
+            margin: auto;
+        }
 
-/* ------------------- BOTÕES ------------------- */
-.btn {
-    display: inline-block;
-    background: #ff006e;
-    padding: 18px 40px;
-    border-radius: 50px;
-    color: white;
-    font-size: 1.3rem;
-    font-weight: 800;
-    margin-top: 25px;
-    box-shadow: 0 0 15px #ff006e;
-    text-decoration: none;
-    transition: .3s;
-}
-.btn:hover {
-    background: #ff2d8b;
-    transform: scale(1.05);
-}
+        .section h3 {
+            color: #003399;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
 
-/* ------------------- TIMER ------------------- */
-#timer {
-    font-size: 2rem;
-    font-weight: 900;
-    background: #ff003c;
-    padding: 10px 25px;
-    border-radius: 10px;
-    display: inline-block;
-    margin-top: 20px;
-    box-shadow: 0 0 20px #ff003c;
-}
+        .section p {
+            font-size: 18px;
+            line-height: 1.7;
+        }
 
-/* ------------------- SEÇÃO IMAGEM EXTRA (GRUPO) ------------------- */
-.image-group img {
-    width: 95%;
-    max-width: 1100px;
-    border-radius: 15px;
-    border: 4px solid #ff408c;
-    box-shadow: 0 0 20px #ff0059;
-}
+        .img-block {
+            text-align: center;
+            margin: 40px 0;
+        }
 
-/* ------------------- BENEFÍCIOS ------------------- */
-.benefits {
-    background: linear-gradient(#320018, #540028);
-}
+        .img-block img {
+            width: 90%;
+            max-width: 800px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
 
-.benefit-box {
-    background: rgba(255,255,255,0.1);
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 700px;
-    border-radius: 15px;
-    border-left: 5px solid #ff3d96;
-    text-align: left;
-}
+        .benefits {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
 
-/* ------------------- FOOTER ------------------- */
-footer {
-    background: #10000a;
-    padding: 40px 20px;
-    text-align: center;
-    color: #ff4da2;
-    font-weight: 600;
-    border-top: 1px solid #ff4da2;
-}
+        .benefit-box {
+            background: #f5f8ff;
+            padding: 20px;
+            border: 2px solid #003399;
+            border-radius: 12px;
+        }
 
-</style>
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+        }
+    </style>
 </head>
+
 <body>
 
-<!-- ================= HERO ================= -->
+<header>
+    <h1>Crie Sua Modelo IA Influencer</h1>
+    <p>Transforme imagens em influenciadoras digitais e ganhe dinheiro de forma rápida e escalável!</p>
+</header>
+
 <section class="hero">
-<div class="neve"></div>
-
-<h1 style="font-size: 2.6rem;">Fature 15K por mês com IA Influencer + Job</h1>
-<p style="font-size: 1.3rem; max-width: 750px; margin: auto;">
-O MÉTODO DEFINITIVO PARA CRIAR MODELOS IA SENSUAIS E LUCRAR ALTO EM 2026!
-</p>
-
-<div class="hero-images">
-    <img src="https://ibb.co/mF6mnT8b" alt="">
-    <img src="https://ibb.co/0pNz525j" alt="">
-</div>
-
-<a class="btn" href="https://pay.sunize.com.br/NcnRzabu">QUERO COMEÇAR AGORA!</a>
-
-<p style="margin-top: 18px; font-weight: 700;">Oferta Limitada • Somente 50 vagas</p>
-
-<div id="timer">10:00</div>
+    <h2>Crie Sua Modelo IA + Job em Menos de 5 Minutos</h2>
+    <p>Com este método simples, você cria sua própria modelo de Inteligência Artificial completamente personalizada, pronta para gerar conteúdo, campanhas, jobs e oportunidades de renda no automático. Sem precisar aparecer, sem precisar investir alto e sem conhecimentos avançados.</p>
 </section>
 
-<!-- ================= IMAGEM EXTRA (GRUPO COMPLETO) ================= -->
-<section class="image-group">
-<h2>Crie Sua Modelo em Menos de 5 Minutos!</h2>
-<p>Modelos personalizadas, profissionais e prontas para vender packs!</p>
-
-<img src="https://ibb.co/TM0wRDff" alt="">
-
-<img style="margin-top: 30px;" src="https://ibb.co/S75T7Hyv" alt="">
+<section class="section">
+    <h3>✨ O Que Você Vai Aprender</h3>
+    <p>
+        Dentro deste material, você descobre exatamente como criar sua modelo IA influencer com aparência profissional, estilo único e identidade visual marcante — tudo do zero, em poucos minutos.
+    </p>
+    <p>
+        Você também recebe estratégias para transformar essa modelo em um ativo digital que gera renda, atrai seguidores, fecha jobs automáticos e se posiciona como uma influenciadora virtual de sucesso.
+    </p>
 </section>
 
-<!-- ================= BENEFICIOS ================= -->
-<section class="benefits">
-<h2>O QUE VOCÊ VAI RECEBER AO ENTRAR AGORA</h2>
+<section class="section">
+    <h3>📸 Imagens Oficiais</h3>
 
-<div class="benefit-box">
-✨ Acesso vitalício ao método completo passo a passo.
-</div>
+    <div class="img-block">
+        <img src="https://drive.google.com/uc?export=view&id=1lWcAh2Qz-HngNfbk3vB9dibEfsbo0P5k">
+    </div>
 
-<div class="benefit-box">
-✨ Como criar sua modelo IA perfeita em apenas 5 minutos.
-</div>
+    <div class="img-block">
+        <img src="https://drive.google.com/uc?export=view&id=1F7VpYLaoqfGmpzNtTbEU-BqjqJZBR-_L">
+    </div>
 
-<div class="benefit-box">
-✨ Estratégias secretas para lucrar com packs exclusivos.
-</div>
-
-<div class="benefit-box">
-✨ Suporte direto para dúvidas.
-</div>
-
-<div class="benefit-box">
-✨ Garantia total de 7 dias — risco zero!
-</div>
-
-<a class="btn" href="https://pay.sunize.com.br/NcnRzabu">GARANTIR MINHA VAGA AGORA!</a>
 </section>
 
-<!-- ================= FINAL CHAMADA ================= -->
-<section>
-<h2>Não Espere Mais!</h2>
+<section class="section">
+    <h3>💡 Como Funciona</h3>
+    <p>
+        Criar sua modelo IA é simples: você escolhe o estilo, envia referências, define personalidade e nicho, e em poucos minutos gera dezenas de conteúdos profissionais. As plataformas atuais permitem criar fotos realistas, vídeos, poses personalizadas e até campanhas completas — tudo com IA.
+    </p>
+</section>
 
-<p style="font-size: 1.3rem; max-width: 700px; margin: auto;">
-<strong>SE VOCÊ IGNORAR, VAI PERDER UMA OPORTUNIDADE ÚNICA DE FAZER DINHEIRO FÁCIL, ENQUANTO OUTROS FATURAM!</strong>
-</p>
+<section class="section">
+    <h3>🔥 Benefícios de Criar Sua Modelo IA</h3>
 
-<a class="btn" href="https://pay.sunize.com.br/NcnRzabu">QUERO FATURAR 15K AGORA!</a>
+    <div class="benefits">
+        <div class="benefit-box">
+            <strong>💰 Renda Extra Automática</strong>
+            <p>Crie conteúdos que podem ser vendidos, usados para promoções ou até alugados por marcas.</p>
+        </div>
+
+        <div class="benefit-box">
+            <strong>🧠 Tecnologia ao Seu Favor</strong>
+            <p>Processo rápido, simples e totalmente guiado mesmo para quem é iniciante.</p>
+        </div>
+
+        <div class="benefit-box">
+            <strong>📱 Influencer Sem Complicações</strong>
+            <p>Sua modelo trabalha por você: conteúdo diário, sem cansaço e sem erros.</p>
+        </div>
+
+        <div class="benefit-box">
+            <strong>🌎 Conteúdo Infinito</strong>
+            <p>Gere ilimitadas fotos, poses, roupas, cenários, nichos e campanhas.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h3>🚀 Por Que Isso Funciona?</h3>
+    <p>
+        Modelos IA estão dominando o mercado digital — são baratas de criar, extremamente versáteis e não possuem limitações humanas. Marcas AMAM esse tipo de conteúdo e pagam caro por campanhas rápidas, visualmente perfeitas e personalizadas.
+    </p>
 </section>
 
 <footer>
-Feliz 2026 Lucrativo! 🎄✨<br>
-Todos os direitos reservados.
+    <p>© 2025 - Modelo IA Influencer. Todos os direitos reservados.</p>
 </footer>
-
-<script>
-/* TIMER REAL DE 10 MINUTOS */
-let time = 600;
-const timer = document.getElementById("timer");
-
-setInterval(() => {
-    let min = String(Math.floor(time / 60)).padStart(2, '0');
-    let sec = String(time % 60).padStart(2, '0');
-    timer.innerHTML = `${min}:${sec}`;
-    if (time > 0) time--;
-}, 1000);
-</script>
 
 </body>
 </html>
